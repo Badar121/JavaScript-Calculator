@@ -3,6 +3,16 @@
     padding: 0px;
 }
 
+#title{
+    color: white;
+    background-color: rgba(45, 48, 40, 0.986);
+    width: 520px;
+    padding: 10px;
+    font-family: "Share Tech Mono";
+    border-radius: 4px;
+    margin: 30px auto 0px auto;
+    }
+
 .button{
     width: 50px;
     height: 50px;
@@ -30,6 +40,7 @@
 
 .equalBtn{
     height: 105px;
+    background-color: rgb(103, 250, 103);
 }
 
 main{
@@ -49,12 +60,6 @@ body{
     background-color: #097941;
 }
 
-#title{
-color: white;
-background-color: rgba(45, 48, 40, 0.986);
-width: 520px;
-padding: 10px;
-font-family: "Share Tech Mono";
-border-radius: 4px;
-margin: 30px auto 0px auto;
+.cBtn{
+    background-color: rgba(255, 38, 38, 0.959);
 }

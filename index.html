@@ -12,36 +12,36 @@
         </div>
         <main>
             <form name="form">
-                <input class="textview" name="textview" disabled>
+                <input class="textview" id="textview" disabled>
             </form>
             <table>
                 <tr>
-                    <td><input type="button" class="button" value="C" onclick="clean()"></td>
+                    <td><input type="button" class="button cBtn" value="C" onclick="clean()"></td>
                     <td><input type="button" class="button" value="CE" onclick="back()"></td>
                     <td><input type="button" class="button" value="&divide;" onclick="insert('/')"></td>
                     <td><input type="button" class="button" value="&times;" onclick="insert('*')"></td>
                 </tr>
                 <tr>
-                    <td><input type="button" class="button" value="7" onclick="insert(7)"></td>
-                    <td><input type="button" class="button" value="8" onclick="insert(8)"></td>
-                    <td><input type="button" class="button" value="9" onclick="insert(9)"></td>
-                    <td><input type="button" class="button" value="-" onclick="insert('-')"></td>
+                    <td><input type="button" class="button" value="7" onclick="insert(this.value)"></td>
+                    <td><input type="button" class="button" value="8" onclick="insert(this.value)"></td>
+                    <td><input type="button" class="button" value="9" onclick="insert(this.value)"></td>
+                    <td><input type="button" class="button" value="-" onclick="insert(this.value)"></td>
                 </tr>
                 <tr>
-                    <td><input type="button" class="button" value="4" onclick="insert(4)"></td>
-                    <td><input type="button" class="button" value="5" onclick="insert(5)"></td>
-                    <td><input type="button" class="button" value="6" onclick="insert(6)"></td>
-                    <td><input type="button" class="button" value="+" onclick="insert('+')"></td>
+                    <td><input type="button" class="button" value="4" onclick="insert(this.value)"></td>
+                    <td><input type="button" class="button" value="5" onclick="insert(this.value)"></td>
+                    <td><input type="button" class="button" value="6" onclick="insert(this.value)"></td>
+                    <td><input type="button" class="button" value="+" onclick="insert(this.value)"></td>
                 </tr>
                 <tr>
-                    <td><input type="button" class="button" value="1" onclick="insert(1)"></td>
-                    <td><input type="button" class="button" value="2" onclick="insert(2)"></td>
-                    <td><input type="button" class="button" value="3" onclick="insert(3)"></td>
-                    <td rowspan="2"><input type="button" class="button equalBtn" value="=" onclick="equal()"></td>
+                    <td><input type="button" class="button" value="1" onclick="insert(this.value)"></td>
+                    <td><input type="button" class="button" value="2" onclick="insert(this.value)"></td>
+                    <td><input type="button" class="button" value="3" onclick="insert(this.value)"></td>
+                    <td rowspan="2"><input type="button" class="button equalBtn" value="=" onclick="equal()"></td> 
                 </tr>
                 <tr>
-                    <td colspan="2"><input type="button" class="button zeroBtn" value="0" onclick="insert(0)"></td>
-                    <td><input type="button" class="button" value="." onclick="insert('.')"></td>
+                    <td colspan="2"><input type="button" class="button zeroBtn" value="0" onclick="insert(this.value)"></td>
+                    <td><input type="button" class="button" value="." onclick="insert(this.value)"></td>
                 </tr>
             </table>
         </main>
